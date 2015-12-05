@@ -49,7 +49,7 @@ header img {
     margin-bottom: 2em;
     text-align: center;
     height: 500px;
-    width: 100% 100%;
+    width: 100%;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -93,7 +93,8 @@ header img {
 }
 
 .block,
-.block2 {
+.block2,
+.block3 {
     float: left;
     width: 100%;
     margin-right: auto;
@@ -117,7 +118,24 @@ header img {
     color: #ffffff;
 }
 
+.block2 figure {
+    padding: 2%;
+}
+
+.block3 {
+    background-color:#00CC33;
+}
+
+.block3 h2 {
+    color: #ffffff;
+}
+
 a {
+    color: #ffffff;
+}
+
+#fullpage h2 {
+    text-align: center;
     color: #ffffff;
 }
 
